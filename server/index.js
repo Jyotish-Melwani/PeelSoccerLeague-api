@@ -22,6 +22,4 @@ if (process.env.NODE_ENV == 'production') {
   });
 }
 
-app.listen(PORT, () => {
-  console.log('Port is running on PORT: ', PORT)
-})
+app.listen(PORT, ()=> console.log(`Running up that hill on port ${PORT}`));
